@@ -1,0 +1,30 @@
+html{
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+
+}
+
+body {
+ margin:0;
+  font: 300 11px/1.4 'Helvatica Neue', sans-serif;
+  color: white;
+  background: #022c43;
+  overflow: hidden;
+  display: block;
+  
+  white-space: nowrap;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 1200px) {
+  body{
+    overflow: visible;
+    position: fixed;
+  }
+}
+
+

@@ -1,0 +1,142 @@
+.contact-page{
+    margin: 20px;
+}
+.contact-form{
+    width: 100%;
+    margin-top: 10px;
+margin: 20px;
+        padding: 0;
+    
+    display: flex;
+    ul{
+        padding: 0;
+    margin-top: -10px;
+
+    
+    }
+       
+    }
+
+
+    li{
+        padding:0;
+        width: 78%;
+        margin: 0px;
+        list-style: none;
+        margin-bottom: 10px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        opacity: 0;
+        animation: fadeInUp 2s 2s;
+        animation-fill-mode: forwards;
+        border-radius: 25px;
+      
+    }
+    li.half{
+        width: 200px;
+        margin-left: 0;
+        
+    float: left;
+    clear: none;
+
+   
+    }
+   
+    .flat-button{
+      border-radius: 20px ;
+      font: 11px;
+      right: 1;
+      left: 200px;
+      top:380px;
+
+    }
+    
+
+
+
+
+
+input[type='text'],
+input[type="email"] {
+    display:flex ;
+    justify-content: space-between;
+    width: 100%;
+border: 0;
+background-color: #115173;
+height: 50px;
+font-size: 16px;
+font-family: sans-serif;
+color:#fff;
+padding: 0 20px;
+box-sizing: border-box;
+}
+
+textarea{
+    width: 100%;
+    height: 50px;
+    border: 0;
+    background: #115173;
+    font-family: sans-serif;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+
+
+@media screen  and (max-width: 800px){
+
+    .contact-page{
+     
+        .flat-button{
+           
+          border-radius: 20px ;
+          font: 11px;
+         position: absolute ;
+         
+         left:20px;
+         right: 20;
+         top: 460px;
+        }
+   
+    }
+    .contact-form{
+     ul{
+         padding: 0;
+     margin: 0;
+     display: flex;
+     flex-direction: column;
+     }
+     li{
+         padding:0;
+         width: 200px;
+         margin: 1px;
+         list-style: none;
+         margin-bottom: 10px;
+         overflow: hidden;
+         display: flex;
+         flex-direction: column;
+         position: relative;
+         opacity: 0;
+         animation: fadeInUp 2s 2s;
+         animation-fill-mode: forwards;
+       
+     }
+     li.half{
+         width: 200px;
+         margin-left: 2%;
+         
+     float: left;
+     clear: none;
+ 
+    
+     }
+ }
+
+ 
+ } 
+
+
+ 
